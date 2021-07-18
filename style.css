@@ -1,0 +1,206 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+
+}
+
+:root{
+    --redDefault:#D30202;
+}
+
+/* navbar ==========> */
+
+.navbar{
+    background-color: var(--redDefault);
+    width: 100%;
+    height: 74px;
+}
+
+.navbar nav{
+    margin-left: 20px;
+}
+
+/* Formulário=================== */
+
+.container{
+    background-image: url(./images/bg-pt1.png);
+    width: 100%;
+    height: 739px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.grid-item-1{
+    color: white;
+    font-size: 7rem;
+    font-weight: 900;
+    justify-self: center;
+}
+.grid-item-1 p{
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.friday{
+    text-shadow: 7px 7px #000;
+}
+
+.redline{
+    color: var(--redDefault);
+    font-weight: normal;
+    font-size: 50px;
+    text-shadow: none;
+    font-family: 'Black Han Sans', sans-serif;
+}
+
+.grid-item-2{
+    color: #fff;
+    justify-self: center;
+    font-size: 25px;
+}
+
+input{
+    margin-top: 20px;
+    width: 28rem;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    text-indent: 10px;
+    height: 2rem;
+}
+
+.cadastro{
+    width: 28rem;
+    margin-top: 20px;
+    color: #fff;
+    width: 28.5rem;
+    background-color: var(--redDefault);
+    font-size: 1.2rem;
+    border-radius: 15px;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* contdouwn ================= */
+
+.container-2{
+    display: grid;
+    width: 100%;
+    height: 522px;
+    background-color: var(--redDefault);
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.cellRight{
+    position: absolute;
+    width: 60%;
+    height: 70vh;
+    left: -32%;
+    top: 123.8%;
+}
+
+.grid-item-3{
+    color: #fff;
+    font-size: 1.6rem;
+    text-align: center;
+    width: 100%;
+    font-weight: 900;
+}
+
+#count{
+    font-weight: 900;
+    color: #000;
+    font-size: 3rem;
+    line-height: 94px;
+}
+
+.cellLeft{
+    position: absolute;
+    width: 60%;
+    height: 70vh;
+    left: 69%;
+    top: 133.2%;
+}
+
+.goCadastro{
+    margin-top: 20px;
+    color: #000;
+    width: 28.5rem;
+    background-color: #fff;
+    font-size: 1.2rem;
+    border-radius: 15px;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* ofertas ========================= */
+
+.container-3{
+    background-color: #0B0C0C;
+    width: 100%;
+    height: 670px;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    text-align: center;
+    left: 30px;
+}
+
+.circle{
+    position: relative;
+    background-color:  var(--redDefault);
+    width: 7rem;
+    border-radius: 50%;
+    height: 7rem;
+    z-index: 9999;
+    top: -10rem;
+    left: 18rem;
+    text-align: center;
+}
+.circle p{
+    position: relative;
+    font-size: 3rem;
+    top: 1.5rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+.promo{
+    text-align: center;
+    position: relative;
+    font-size: 1.4rem;
+    top: -80px;
+    color: #fff;
+}
+.promo span{
+    text-decoration: line-through;
+}
+
+.goCadastro2{
+    width: 15rem;
+    margin-top: 20px;
+    color: #fff;
+    background-color: var(--redDefault);
+    font-size: 1rem;
+    border-radius: 15px;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* foooter =============== */
+footer{
+    width: 100%;
+    background-color: var(--redDefault);
+    text-align: center;
+}
